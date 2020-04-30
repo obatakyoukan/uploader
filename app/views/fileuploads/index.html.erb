@@ -1,0 +1,10 @@
+<h1>Fileuploads#index</h1>
+<p>Find me in app/views/fileuploads/index.html.erb</p>
+
+
+<h1><%= link_to 'Append jpg', new_fileupload_url %></h1>
+<% @img_paths.each do |img_path| %>
+  <h2> <%= img_path %> </h2>
+  <iframe src="<%=img_path%>"  > </iframe>  
+  <%= link_to "Link" , img_path %>
+<% end %>
