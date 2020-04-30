@@ -1,24 +1,12 @@
-# README
+# file uploader
+Ruby on Rails でのファイルアップロード・表示用
+---
+基本機能
+- 追加によるファイルの追加
+- ファイルの表示iframe使用
+- ファイルへのリンクによるブラウザからのリンク
+---
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+追加機能
+- ファイルのデリート機能
+- DBによるファイルの管理
